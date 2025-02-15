@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Super Seguidores",
+    "slug": "super-seguidores",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#03B72F"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#03B72F"
+      },
+      "package": "com.wldeveloper.superseguidores"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5062fa7e-3e34-4714-8743-a8e3a925bb9c"
+      }
+    }
+  }
+}
